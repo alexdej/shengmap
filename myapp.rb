@@ -6,6 +6,7 @@ get '/' do
   # TODO: want to have a help page here but for now just redirect to the map
   redirect '/map'
 end
+
 get '/map' do
   content_type 'image/png'
   headers['Cache-Control'] = 'public, max-age=86400' # one day

@@ -11,3 +11,4 @@ map = map.composite(fj, 0, 0, Magick::OverCompositeOp)
 
 #img.write('after.jpg')
 map.write('map.jpg')
+
